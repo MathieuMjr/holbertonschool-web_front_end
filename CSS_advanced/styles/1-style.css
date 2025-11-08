@@ -11,7 +11,7 @@ a {
 }
 
 .visually-hidden {
-    display:None;
+    display:none;
 }
 
 .card-category{
