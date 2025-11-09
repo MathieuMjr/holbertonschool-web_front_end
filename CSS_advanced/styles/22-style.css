@@ -204,7 +204,7 @@ a:active{
 
 /* identifie dans le html les lignes avec "<section data-section-theme="dark">"
 et applique le style voulu, les variables text color et title color sont redéfinie*/
-[data-section-theme=“dark”] {
+[data-section-theme="dark"] {
     --text-color: var(--color-white);
     --section-title-color: var(--color-white);
     background: var(--color-black);
