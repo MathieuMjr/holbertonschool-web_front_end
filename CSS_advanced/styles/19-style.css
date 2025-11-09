@@ -93,7 +93,7 @@ h1, h2, h3, h4, h5, h6{
     font-weight: var(--font-weight-bold);
 }
 
-ul .row{
+ul.row{ /*tout ul qui a la classe row*/
     margin: 0;
     padding: 0;
     list-style: none;
@@ -147,7 +147,6 @@ a:active{
     font-weight: var(--font-weight-bold);
     margin: var(--section-title-margin);
     color: var(--section-title-color);
-    margin: var(--section-tagline-margin);
 }
 
 .section-header{
@@ -187,6 +186,7 @@ footer ul{
     font-family: var(--font-family-title);
     text-transform: var(--section-tagline-transform);
     font-weight: var(--font-weight-bold);
+    margin: var(--section-tagline-margin);
 }
 
 .container{
