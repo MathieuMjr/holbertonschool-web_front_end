@@ -210,7 +210,7 @@ a:active{
     display: block;
 }
 
-.social-link svg path{
+.social-link > svg {
     color: var(--text-color);
 }
 /* identifie dans le html les lignes avec "<section data-section-theme="dark">"
