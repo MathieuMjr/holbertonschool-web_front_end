@@ -43,21 +43,21 @@ h1, h2, h3, h4, h5, h6{
     font-weight: var(--font-weight-bold);
 }
 
-a[href^="http"] {
+a[href] {
     color:#161616;
     text-decoration: none;
 } /*"^=" signifie "qui commence par"*/
 
-a[href^="http"]:hover{
-    text-decoration: underline;
-}
-
-a[href^="http"]:visited{
+a[href]:visited{
     font-style:italic;
 }
 
-a[href^="http"]:active{
+a[href]:active{
     background-color: var(--color-light-grey);
+} /* state of the link when you click it*/
+
+a[href]:hover{
+    text-decoration: underline;
 }
 
 .visually-hidden {
