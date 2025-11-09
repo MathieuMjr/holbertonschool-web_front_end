@@ -52,13 +52,13 @@ a[href]:visited{
     font-style:italic;
 }
 
-a[href]:active{
-    background-color: var(--color-light-grey);
-} /* state of the link when you click it*/
-
 a[href]:hover{
     text-decoration: underline;
 }
+
+a[href]:active{
+    background-color: var(--color-light-grey);
+} /* state of the link when you click it*/
 
 .visually-hidden {
     display:none;
