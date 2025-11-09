@@ -207,5 +207,5 @@ et applique le style voulu, les variables text color et title color sont redéfi
 [data-section-theme=“dark”] {
     --text-color: var(--color-white);
     --section-title-color: var(--color-white);
-    background-color: var(--color-black);
+    background: var(--color-black);
 }
