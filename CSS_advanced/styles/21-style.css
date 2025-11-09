@@ -110,6 +110,14 @@ ul.row{ /*tout ul qui a la classe row*/
     list-style: none;
 }
 
+.col-1-3{
+    width:33.33%;
+}
+
+.col-1-2{
+    width:50%;
+}
+
 a {
     color:#161616;
     text-decoration: none;
