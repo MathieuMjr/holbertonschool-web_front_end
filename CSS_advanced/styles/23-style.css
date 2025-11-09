@@ -213,6 +213,7 @@ a:active{
 .social-link > svg {
     color: var(--text-color);
 }
+
 /* identifie dans le html les lignes avec "<section data-section-theme="dark">"
 et applique le style voulu, les variables text color et title color sont redéfinie*/
 [data-section-theme="dark"] {
