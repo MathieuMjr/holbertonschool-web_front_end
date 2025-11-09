@@ -48,6 +48,11 @@ a {
     text-decoration: none;
 } /*"^=" signifie "qui commence par"*/
 
+a:link {
+  color: var(--text-color);
+  text-decoration: none;
+}
+
 a:visited{
     font-style:italic;
 }
