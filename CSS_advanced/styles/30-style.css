@@ -341,13 +341,13 @@ et applique le style voulu, les variables text color et title color sont redéfi
 
 .card-work .card-inner {
     position: absolute;
-    top: -1rem;
+    top: -0.1rem;
     left:-0.1rem;
     right: -0.1rem;
     z-index: 1;
 }
 
-.card-inner:hover {
+.card-work:hover .card-inner {
     background-color: rgba(0, 0, 0, 0.7);
 }
 
@@ -359,7 +359,7 @@ et applique le style voulu, les variables text color et title color sont redéfi
     position: relative;
 }
 
-.card-work .card-title {
+.card-work .card-title a {
     display: block;
     text-decoration: none;
     padding-top: 45%;
