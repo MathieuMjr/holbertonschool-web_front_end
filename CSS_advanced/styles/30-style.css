@@ -363,6 +363,7 @@ et applique le style voulu, les variables text color et title color sont redéfi
     display: block;
     text-decoration: none;
     padding-top: 45%;
+    position: relative;
 }
 
 .card-work .card-title a::after {
