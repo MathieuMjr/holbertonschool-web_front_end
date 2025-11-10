@@ -336,7 +336,7 @@ et applique le style voulu, les variables text color et title color sont redéfi
     height: 30rem;
     width: 100%;
     object-fit: cover;
-    vertical-align: bottom;
+    object-position: bottom;
 }
 
 .card-work .card-inner {
