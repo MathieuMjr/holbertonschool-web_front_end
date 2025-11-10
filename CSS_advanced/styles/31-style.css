@@ -326,7 +326,7 @@ et applique le style voulu, les variables text color et title color sont redéfi
     left: -1rem;
     color: #efeded;
     font-size: 10rem;
-    z-index: 1;
+    z-index: -1;
 }
 
 .section-hero {
